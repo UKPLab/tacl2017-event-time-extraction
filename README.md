@@ -38,6 +38,16 @@ This code was developed and tested with:
 - Keras 0.3.3
 - NLTK 3.2.5
 
-It does not run with more recent versions of Keras or with Python 3.
+It does not run with more recent versions of Keras or with Python 3. The Theano backend must be used for Keras.
 
 The python package requirements can be found in the `requirements.txt` folder.
+
+Futher, it requires requires the dependency based word embeddings by Levy et al.: https://levyomer.wordpress.com/2014/04/25/dependency-based-word-embeddings/
+
+To run the code, perform the following steps:
+* Run `1_CreatePKLFiles.py`. This loads the embeddings file and generates pickle files (stored in the pkl-folder) that are later used for training the network.
+* The `2_Train_*.py` scripts trains networks for the individual nodes in the decision tree. Run `2_TrainAllModels.py` to train all models. The code performs a random hyperparameter search, samples parameters at random, trains the network and stores the output.
+* The `3_CreateOutput.py` and `4_CreateLabels.py` plugs all nodes together and generates the final event time output.
+
+ 
+

@@ -6,7 +6,7 @@ The following repository contains the Python code for a decision tree that appli
 If you find the implementation useful, please cite the following paper: Event Time Extraction with a Decision Tree of Neural Classifiers (to appear)
 
 ```
-@InProceedings{Reimers:2017:EMNLP,
+@InProceedings{Reimers_2017_Event_Time_Extraction,
   author    = {Reimers, Nils and Dehghani, Nazanin and Gurevych, Iryna},
   title     = {{Event Time Extraction with a Decision Tree of Neural Classifiers}},
   booktitle = {Transactions of the Association for Computational Linguistics},

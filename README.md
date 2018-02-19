@@ -1,5 +1,5 @@
 # Event Time Extraction with a Decision Tree of Neural Classifiers
-The following repository contains the Python code for a decision tree that applies neural network classifiers at its nodes. It was used for our publication [https://transacl.org/ojs/index.php/tacl/article/download/1218/282](Event Time Extraction with a Decision Tree of Neural Classifiers).
+The following repository contains the Python code for a decision tree that applies neural network classifiers at its nodes. It was used for our publication [Event Time Extraction with a Decision Tree of Neural Classifiers](https://transacl.org/ojs/index.php/tacl/article/download/1218/282).
 
 
 # Citation
